@@ -43,6 +43,6 @@ exports.conf = {
 
 exports.help = {
   name: 'lockdown',
-  description: 'Esto hará que el canal sea desactivado por un tiemo, puede ser en horas, minutos o segundos.',
+  description: 'Esto hará que el canal sea desactivado por un tiempo, puede ser en horas, minutos o segundos.',
   usage: 'lockdown <duración>'
 };
