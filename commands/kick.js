@@ -26,6 +26,6 @@ exports.conf = {
 
 exports.help = {
   name: 'kick',
-  description: 'Kicks the mentioned user.',
-  usage: 'kick [mention] [reason]'
+  description: 'Echa al usuario mencionado.',
+  usage: 'kick [@usuario] [razón]'
 };
