@@ -14,6 +14,6 @@ exports.conf = {
 
 exports.help = {
   name: 'purge',
-  description: 'Purges X amount of messages from a given channel.',
-  usage: 'purge <number>'
+  description: 'Limpia X cantidad de mensajes en un canal.',
+  usage: 'purge <cantidad>'
 };
