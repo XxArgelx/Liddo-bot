@@ -1,5 +1,5 @@
-exports.run = function(client, message, args) {
-  let messagecount = parseInt(args.join(' '));
+exports.run = (client, message, args) => {
+  const messagecount = parseInt(args.join(' '));
   message.channel.fetchMessages({
     limit: messagecount
   }).then(messages => message.channel.bulkDelete(messages));
@@ -14,6 +14,6 @@ exports.conf = {
 
 exports.help = {
   name: 'purge',
-  description: 'Limpia X cantidad de mensajes en un canal.',
-  usage: 'purge <cantidad>'
+  description: 'Purges X amount of messages from a given channel.',
+  usage: 'purge <number>'
 };
