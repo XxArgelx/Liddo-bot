@@ -36,6 +36,6 @@ exports.conf = {
 
 exports.help = {
   name: 'mute',
-  description: 'mutes or unmutes a mentioned user',
-  usage: 'un/mute [mention] [reason]'
+  description: 'Mutea al usuario mencionado',
+  usage: 'un/mute [@usuario] [razón]'
 };
