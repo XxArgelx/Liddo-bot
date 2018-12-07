@@ -1,0 +1,17 @@
+{
+  "name": "Liddo",
+  "version": "1.2.5",
+  "description": "Liddo bot para discord",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "XxArgelxX",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "discord.js": "^11.1.0",
+    "moment": "^2.18.1",
+    "ms": "^0.7.3"
+  }
+}
