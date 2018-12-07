@@ -1,4 +1,4 @@
-bexports.run = (client, message, args) => {
+exports.run = (client, message, args) => {
   let reason = args.slice(1).join(' ');
   client.unbanReason = reason;
   client.unbanAuth = message.author;
