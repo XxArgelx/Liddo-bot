@@ -22,6 +22,6 @@ exports.conf = {
 
 exports.help = {
   name: 'warn',
-  description: 'DA una advertencia a un usuario.',
+  description: 'Da una advertencia a un usuario.',
   usage: ' -warn [@usuario] [Razón]'
 };
