@@ -1,8 +1,8 @@
 const ms = require('ms');
 exports.run = (client, message, args) => {
   if (!client.lockit) client.lockit = [];
-  let time = args.join(' ');
-  let validUnlocks = ['release', 'unlock'];
+  const time = args.join(' ');
+  const validUnlocks = ['release', 'unlock'];
   if (!time) return message.reply('You must set a duration for the lockdown in either hours, minutes or seconds');
 
   if (validUnlocks.includes(time)) {
@@ -43,6 +43,6 @@ exports.conf = {
 
 exports.help = {
   name: 'lockdown',
-  description: 'Esto hará que el canal sea desactivado por un tiempo, puede ser en horas, minutos o segundos.',
-  usage: 'lockdown <duración>'
+  description: 'This will lock a channel down for the set duration, be it in hours, minutes or seconds.',
+  usage: 'lockdown <duration>'
 };
