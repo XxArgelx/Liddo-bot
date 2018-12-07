@@ -14,6 +14,6 @@ exports.conf = {
 
 exports.help = {
   name: 'ping',
-  description: 'Ping/Pong command. I wonder what this does? /sarcasm',
+  description: 'Muestra la velocidad de tu conexión con el servidor',
   usage: 'ping'
 };
