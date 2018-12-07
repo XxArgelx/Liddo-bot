@@ -1,4 +1,4 @@
-exports.run = (client, message, args) => {
+bexports.run = (client, message, args) => {
   let reason = args.slice(1).join(' ');
   client.unbanReason = reason;
   client.unbanAuth = message.author;
@@ -19,6 +19,6 @@ exports.conf = {
 
 exports.help = {
   name: 'unban',
-  description: 'Unbans the user.',
-  usage: 'unban [mention] [reason]'
+  description: 'Desbanea al usuario mencionado.',
+  usage: 'unban [@usuario] [razón]'
 };
