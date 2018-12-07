@@ -8,14 +8,14 @@ exports.run = (client, message, args) => {
   if (!command) {
     return message.channel.send(`I cannot find the command: ${args[0]}`);
   } else {
-    message.channel.send(`Reloading: ${command}`)
+    message.channel.send(`Recargando: ${command} ⏳`)
       .then(m => {
         client.reload(command)
           .then(() => {
-            m.edit(`Successfully reloaded: ${command}`);
+            m.edit(`Recargado exitosamente: ${command} 👌`);
           })
           .catch(e => {
-            m.edit(`Command reload failed: ${command}\n\`\`\`${e.stack}\`\`\``);
+            m.edit(`La recarga del comando falló: ${command}\n\`\`\`${e.stack}\`\`\` 🙊`);
           });
       });
   }
