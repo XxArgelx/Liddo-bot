@@ -12,7 +12,7 @@ exports.run = (client, message, args) => {
   return client.channels.get(sugerencialog.id).send({embed})
   .then(msg => {
     msg.react('524605491045728256')
-    msg.react('👎')});
+    msg.react('524605491280871424')});
 };
 
 exports.conf = {
