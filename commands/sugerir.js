@@ -11,7 +11,7 @@ exports.run = (client, message, args) => {
   .setDescription(`**Sugerencia:** ${sugerencia}`);
   return client.channels.get(sugerencialog.id).send({embed})
   .then(msg => {
-    msg.react('👍')
+    msg.react('524605491045728256')
     msg.react('👎')});
 };
 
